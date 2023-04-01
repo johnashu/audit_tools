@@ -4,8 +4,8 @@
     "exclude_low": false,
     "exclude_medium": false,
     "exclude_high": false,
-    "json": "slither.results.json",
+    "json": "slither/data/slither.results.json",
     "disable_color": false,
-    "filter_paths": "/test/",
+    "filter_paths": "(lib/|test/)",
     "legacy_ast": false
 }

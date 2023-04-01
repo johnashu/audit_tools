@@ -8,6 +8,10 @@ Docker Linux command line..
 
 `pip3 install slither-analyzer`
 
+run Slither using Config file and the `auditFiles` directory.
+
+`slither /auditFiles/madnfts-solidity-contracts/. --config-file /slitherData/slither.config.json`
+
 # Using Docker
 
 Use the eth-security-toolbox docker image. It includes all of our security tools and every major version of Solidity in a single image. /home/share will be mounted to /share in the container.
